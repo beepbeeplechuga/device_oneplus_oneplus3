@@ -190,10 +190,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
-# DU Updater
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.du.updater=oneplus3
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8996 \
